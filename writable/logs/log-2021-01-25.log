@@ -1,0 +1,11 @@
+CRITICAL - 2021-01-25 12:52:09 --> Undefined variable: title
+#0 C:\Program Files\xampp\htdocs\ci4test\app\Views\Layout\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 12, Array)
+#1 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Program File...')
+#2 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\Program Files\xampp\htdocs\ci4test\app\Controllers\Pages.php(19): view('layout/header')
+#4 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->about()
+#5 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Program Files\xampp\htdocs\ci4test\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Program Files\xampp\htdocs\ci4test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Program File...')
+#9 {main}
